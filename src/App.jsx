@@ -1,13 +1,11 @@
 import './App.css'
-import LinePlot from './components/LinePlot'
+import BarChart from './components/BarChart';
 
 function App() {
-  const sampleData = [30, 50, 80, 40, 90, 60, 70];
-
   return (
     <div className="App">
-      <h1>Hello React + D3 world!</h1>
-      <LinePlot data={sampleData}/>
+      <h1>Sample Bar Chart with React + D3</h1>
+      <BarChart/>
     </div>
   )
 }

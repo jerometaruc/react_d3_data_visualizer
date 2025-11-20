@@ -4,7 +4,7 @@ import BarChart from './components/BarChart';
 function App() {
   return (
     <div className="App">
-      <h1>Sample Bar Chart with React + D3</h1>
+      <h1>CSC370 - English Football Data Visualization</h1>
       <BarChart/>
     </div>
   )
